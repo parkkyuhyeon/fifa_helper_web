@@ -22,7 +22,7 @@ def result():
 
 
     return render_template("result.html", user_name = user_name, user_level = user_level, maxdivision = maxdivision, matches_50 = matches_50, matches_52 = matches_52, trade_buy = trade_buy, trade_sell = trade_sell)
-port_num = 80
+port_num = 8080
 
 if __name__ == "__main__":
-    app.run(debug=True, port = port_num)
+    app.run(port = port_num)
