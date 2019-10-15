@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def get_nickname():
     return render_template("get_nickname.html")
-@app.route("/info", methods = ["POST"])
+@app.route("/", methods = ["POST"])
 def result():
     nickname = request.form['nickname']
 

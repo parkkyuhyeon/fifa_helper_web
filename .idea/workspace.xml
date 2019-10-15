@@ -2,89 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a362ecb7-b118-464b-84ce-1c1bee3fa65a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/landing-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/landing-page.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/bg-masthead.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/_call-to-action.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/_masthead.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/_showcase.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/_testimonials.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scss/landing-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/svg-with-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/svg-with-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/v4-shims.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/v4-shims.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fifa4_helper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fifa4_helper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_spid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fifa_helper_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/fifa_helper_web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fifa_helper_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/get_nickname.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/get_nickname.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fifa_helper_web">
+  <component name="RunManager" selected="Python.get_spid">
     <configuration name="create_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fifa4_helper" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +118,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fifa_helper_web.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_spid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fifa4_helper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_spid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_spid" />
         <item itemvalue="Python.fifa_helper_web" />
         <item itemvalue="Python.data" />
         <item itemvalue="Python.create_info" />
