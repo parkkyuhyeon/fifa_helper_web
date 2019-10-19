@@ -71,10 +71,74 @@ def seson_id(spid):
     if si == "501":
         return "18S"
 
-def find_player(player_id):
-    for i in spid():
-        name = i["name"]
-        id = str(i["id"])
-        season = seson_id(id)
-        if player_id == id:
-            return season+' '+name
+def find_player(trade_list):
+    li = spid()
+    for i, a in enumerate(trade_list):
+        player_id = str(a["spid"])
+        for b in li:
+            id = str(b["id"])
+            if player_id == id:
+                trade_date = a["tradeDate"]
+                value = str(a["value"])
+                name = b["name"]
+                seson = seson_id(id)
+                grade = str(a["grade"])
+                trade_list[i] = [trade_date, seson, name, '+'+grade, value]
+    return trade_list
+
+def division(grade):
+    if grade == "1100":
+        return "챌린지"
+    if grade == "2000":
+        return "월드클래스1"
+    if grade == "2100":
+        return "월드클래스2"
+    if grade == "2200":
+        return "월드클래스3"
+    if grade == "2300":
+        return "프로1"
+    if grade == "2400":
+        return "프로2"
+    if grade == "2500":
+        return "프로3"
+    if grade == "2600":
+        return "세미프로1"
+    if grade == "2700":
+        return "세미프로2"
+    if grade == "2800":
+        return "세미프로3"
+    if grade == "2900":
+        return "아마추어1"
+    if grade == "3000":
+        return "아마추어2"
+    if grade == "3100":
+        return "아마추어3"
+    if grade == "800":
+        return "슈퍼챔피언스"
+    if grade == "900":
+        return "챔피언스"
+
+def past_glory(maxdivision):
+    for a in maxdivision:
+        if a["matchType"] == 50:
+            match_50 = a
+        if a["matchType"] == 52:
+            match_52 = a
+    if 'match_50' in locals() and 'match_52' in locals():
+        match_50_achieve = str(match_50["division"])
+        match_50_achievementdate = match_50["achievementDate"]
+        match_52_achieve = str(match_52["division"])
+        match_52_achievementdate = match_52["achievementDate"]
+        return [["공식경기", match_50_achievementdate, division(match_50_achieve)], ["감독모드" ,match_52_achievementdate, division(match_52_achieve)]]
+    elif 'match_50' in locals():
+        match_50_achieve = str(match_50["division"])
+        match_50_achievementdate = match_50["achievementDate"]
+        return [["공식경기", match_50_achievementdate, division(match_50_achieve)]]
+    elif 'match_52' in locals():
+        match_52_achieve = str(match_52["division"])
+        match_52_achievementdate = match_52["achievementDate"]
+        return [["공식경기", match_52_achievementdate, division(match_52_achieve)]]
+    else:
+        return [["-", "-", "-"]]
+
+

@@ -14,11 +14,11 @@ def result():
     user_name = user_info['nickname']
     user_level = user_info['level']
 
-    maxdivision = rf.maxdivision(user_id)
+    maxdivision = rf.past_glory(rf.maxdivision(user_id))
     matches_50 = rf.matches(user_id, "50")
     matches_52 = rf.matches(user_id, "52")
-    trade_buy = rf.trade(user_id, "buy")
-    trade_sell = rf.trade(user_id, "sell")
+    trade_buy = rf.find_player(rf.trade(user_id, "buy"))
+    trade_sell =rf.find_player(rf.trade(user_id, "sell"))
 
 
     return render_template("result.html", user_name = user_name, user_level = user_level, maxdivision = maxdivision, matches_50 = matches_50, matches_52 = matches_52, trade_buy = trade_buy, trade_sell = trade_sell)

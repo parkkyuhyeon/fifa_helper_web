@@ -20,18 +20,37 @@
 
 <body>
 
-  <nav class="navbar navbar-light bg-light static-top">
+  <nav class="navbar navbar-dark bg-dark static-top">
     <div class="container">
       <a class="navbar-brand" href="/">FIFAONLINE4 Helper</a>
     </div>
   </nav>
 
+<div class="container">
  <h1>구단주명</h1>
  <p>{{user_name}}</p>
  <h1>구단주 레벨</h1>
  <p>{{user_level}}</p>
  <h1>역대 최고 등급</h1>
- <p>{{maxdivision}}</p>
+    <table class="table">
+    <thead>
+    <tr>
+        <td>매치종류</td>
+        <td>달성일</td>
+        <td>등급</td>
+    </tr>
+    </thead>
+    <tbody>
+    {% for divi in maxdivision %}
+    <tr>
+        <td>{{divi[0]}}</td>
+        <td>{{divi[1]}}</td>
+        <td>{{divi[2]}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+
  <h1>매치 기록</h1>
  <h2>공식경기</h2>
  <p>{{matches_50}}</p>
@@ -39,9 +58,53 @@
  <p>{{matches_52}}</p>
  <h1>거래 기록</h1>
  <h2>구매</h2>
- <p>{{trade_buy}}</p>
- <h2>판매</h2>
- <p>{{trade_sell}}</p>
+  <table class="table">
+      <thead>
+      <tr>
+          <td>거래일자</td>
+          <td>시즌</td>
+          <td>선수명</td>
+          <td>강화</td>
+          <td>거래가</td>
+      </tr>
+      </thead>
+      <tbody>
+      {% for log in trade_buy %}
+      <tr>
+          <td>{{log[0]}}</td>
+          <td>{{log[1]}}</td>
+          <td>{{log[2]}}</td>
+          <td>{{log[3]}}</td>
+          <td>{{log[4]}}</td>
+      </tr>
+      </tbody>
+      {% endfor %}
+  </table>
+
+  <h2>판매</h2>
+  <table class="table">
+      <thead>
+      <tr>
+          <td>거래일자</td>
+          <td>시즌</td>
+          <td>선수명</td>
+          <td>강화</td>
+          <td>거래가</td>
+      </tr>
+      </thead>
+      <tbody>
+      {% for log in trade_sell %}
+      <tr>
+          <td>{{log[0]}}</td>
+          <td>{{log[1]}}</td>
+          <td>{{log[2]}}</td>
+          <td>{{log[3]}}</td>
+          <td>{{log[4]}}</td>
+      </tr>
+      </tbody>
+      {% endfor %}
+  </table>
+</div>
 
   <footer class="footer bg-light">
     <div class="container">
