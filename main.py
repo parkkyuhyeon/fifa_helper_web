@@ -21,7 +21,13 @@ def result():
     trade_sell =rf.find_player(rf.trade(user_id, "sell"))
 
 
-    return render_template("result.html", user_name = user_name, user_level = user_level, maxdivision = maxdivision, matches_50 = matches_50, matches_52 = matches_52, trade_buy = trade_buy, trade_sell = trade_sell)
+    return render_template("result.html", user_name = user_name, user_level = user_level, maxdivision = maxdivision, matches_50 = enumerate(matches_50), matches_52 = enumerate(matches_52), trade_buy = trade_buy, trade_sell = trade_sell)
+
+@app.route("/match", methods = ["GET"])
+def match_info():
+
+    return
+
 port_num = 8080
 
 if __name__ == "__main__":

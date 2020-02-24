@@ -53,9 +53,44 @@
 
  <h1>매치 기록</h1>
  <h2>공식경기</h2>
- <p>{{matches_50}}</p>
+
+    <table class="table">
+    <thead>
+     <tr>
+         <td>번호</td>
+         <td>매치 코드</td>
+     </tr>
+    </thead>
+    <tbody>
+     {% for i, match in matches_50 %}
+    <tr>
+        <td>{{i + 1}}</td>
+        <td>{{match}}</td>
+    </tr>
+     {% endfor %}
+    </tbody>
+
+    </table>
+
  <h2>감독모드</h2>
- <p>{{matches_52}}</p>
+
+    <table class="table">
+    <thead>
+     <tr>
+         <td>번호</td>
+         <td>매치 코드</td>
+     </tr>
+    </thead>
+    <tbody>
+     {% for i, match in matches_52 %}
+    <tr>
+        <td>{{i + 1}}</td>
+        <td>{{match}}</td>
+    </tr>
+     {% endfor %}
+    </tbody>
+
+    </table>
  <h1>거래 기록</h1>
  <h2>구매</h2>
   <table class="table">

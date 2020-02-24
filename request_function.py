@@ -56,6 +56,16 @@ def seson_id(spid):
         return "19TOTS"
     if si == "216":
         return "HOT"
+    if si == "217":
+        return "COC"
+    if si == "218":
+        return "OTW"
+    if si == "219":
+        return "NG"
+    if si == "220":
+        return "20TOTY"
+    if si == "222":
+        return "20TOTN"
     if si == "295":
         return "K19"
     if si == "297":
@@ -63,13 +73,17 @@ def seson_id(spid):
     if si == "298":
         return "K18"
     if si == "300":
-        return "18"
+        return "19"
     if si == "317":
         return "17"
+    if si == "318":
+        return "18"
     if si == "500":
         return "18A"
     if si == "501":
         return "18S"
+    if si == "502":
+        return "19A"
 
 def find_player(trade_list):
     li = spid()
